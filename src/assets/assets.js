@@ -55,7 +55,7 @@ import twitter_icon from './twitter_icon.png'
 import cross_icon from './cross_icon.png'
 import selector_icon from './selector_icon.png'
 
-export const assets = {
+export const menu_lists = {
     logo,
     basket_icon,
     header_img,
@@ -73,47 +73,14 @@ export const assets = {
     selector_icon
 }
 
-export const menu_list = [
-    {
-        menu_name: "Japanese cuisine",
-        menu_image: menu_1
-    },
-    {
-        menu_name: "Indian cuisine",
-        menu_image: menu_2
-    },
-    {
-        menu_name: "Korean cuisine",
-        menu_image: menu_3
-    },
-    {
-        menu_name: "Italian Cuisine",
-        menu_image: menu_4
-    },
-    {
-        menu_name: "Chinese cuisine",
-        menu_image: menu_5
-    },
-    {
-        menu_name: "Vegan",
-        menu_image: menu_6
-    },
-    {
-        menu_name: "Dessert",
-        menu_image: menu_7
-    },
-    {
-        menu_name: "Greek cuisine",
-        menu_image: menu_8
-    }]
-
 export const food_list = [
+
     {
         food_id: 1,
         food_name: "Sushi",
         food_image: food_1,
         food_price: 17,
-        food_desc: "Sushi is an irresistibly delicious culinary experience, combining fresh ingredients with expert craftsmanship to create a symphony of flavors that delights the palate.",
+        food_desc: "Delicious Sushi: Fresh flavors and expert craftsmanship in every bite.",
         food_category: "Japanese cuisine"
     },
     {
@@ -121,221 +88,237 @@ export const food_list = [
         food_name: "Poke Salad",
         food_image: food_2,
         food_price: 18,
-        food_desc: "Japanese style poke salad. healthy and delicous.",
+        food_desc: "Japanese style poke salad, healthy and delicous.",
         food_category: "Japanese cuisine"
     }, {
         food_id: 3,
         food_name: "Ramen",
         food_image: food_3,
         food_price: 16,
-        food_desc: "Food provides essential nutrients for overall health and well-being",
+        food_desc: "Ramen Reimagined: Warm, savory bowls packed with flavor, ready to satisfy your cravings",
         food_category: "Japanese cuisine"
     }, {
         food_id: 4,
         food_name: "Donkatsu",
         food_image: food_4,
         food_price: 24,
-        food_desc: "Food provides essential nutrients for overall health and well-being",
+        food_desc: "Crunch into Perfection: Golden, crispy donkatsu that's irresistible with every bite.    ",
         food_category: "Japanese cuisine"
     }, {
         food_id: 5,
         food_name: "chicken biryani",
         food_image: food_5,
         food_price: 17,
-        food_desc: "Food provides essential nutrients for overall health and well-being",
+        food_desc: "Indulge in Spiced Perfection: Fragrant rice and tender chicken, infused with aromatic spices in every spoonful.",
         food_category: "Indian cuisine"
     }, {
         food_id: 6,
         food_name: "Butter Chicken",
         food_image: food_6,
         food_price: 12,
-        food_desc: "Food provides essential nutrients for overall health and well-being",
+        food_desc: "Savor Creamy Goodness: Tender chicken simmered in a rich and velvety tomato-based sauce, bursting with flavor",
         food_category: "Indian cuisine"
     }, {
         food_id: 7,
         food_name: "Tandoori Chicken",
         food_image: food_7,
         food_price: 20,
-        food_desc: "Food provides essential nutrients for overall health and well-being",
+        food_desc: "Smoky Tandoori Magic: Juicy chicken marinated in aromatic spices and cooked to perfection in the traditional tandoor oven",
         food_category: "Indian cuisine"
     }, {
         food_id: 8,
         food_name: "Masala Dosa",
         food_image: food_8,
         food_price: 15,
-        food_desc: "Food provides essential nutrients for overall health and well-being",
+        food_desc: "Crispy Comfort: Delight in the crispy texture and savory filling of a classic masala dosa",
         food_category: "Indian cuisine"
     }, {
         food_id: 9,
-        food_name: "Ripple Ice Cream",
+        food_name: "Korean BBQ",
         food_image: food_9,
         food_price: 14,
-        food_desc: "Food provides essential nutrients for overall health and well-being",
+        food_desc: "Grill and Chill: Experience the sizzle and savory flavors of Korean BBQ, a feast for the senses!",
         food_category: "Korean cuisine"
     }, {
         food_id: 10,
-        food_name: "Fruit Ice Cream",
+        food_name: "Pork bone soup",
         food_image: food_10,
         food_price: 22,
-        food_desc: "Food provides essential nutrients for overall health and well-being",
+        food_desc: "Hearty Comfort in a Bowl: Dive into the rich and flavorful pork bone soup, a comforting Korean classic",
         food_category: "Korean cuisine"
     }, {
         food_id: 11,
-        food_name: "Jar Ice Cream",
+        food_name: "Korean fried chicken",
         food_image: food_11,
         food_price: 10,
-        food_desc: "Food provides essential nutrients for overall health and well-being",
+        food_desc: "Crunchy Bliss: Enjoy crispy, golden Korean fried chicken, bursting with flavor and irresistible crunch.",
         food_category: "Korean cuisine"
     }, {
         food_id: 12,
-        food_name: "Vanilla Ice Cream",
+        food_name: "Bibimbap",
         food_image: food_12,
         food_price: 12,
-        food_desc: "Food provides essential nutrients for overall health and well-being",
+        food_desc: "Colorful Harmony: Taste the vibrant flavors and textures of bibimbap, a delightful Korean rice bowl.",
         food_category: "Korean cuisine"
     },
     {
         food_id: 13,
-        food_name: "Chicken Sandwich",
+        food_name: "Tomato Pasta",
         food_image: food_13,
         food_price: 12,
-        food_desc: "Food provides essential nutrients for overall health and well-being",
+        food_desc: "Taste Italy: Dive into our flavorful tomato pasta, a classic Italian favorite.",
         food_category: "Italian Cuisine"
     },
     {
         food_id: 14,
-        food_name: "Vegan Sandwich",
+        food_name: "Lasagna",
         food_image: food_14,
         food_price: 18,
-        food_desc: "Food provides essential nutrients for overall health and well-being",
+        food_desc: "Layers of Flavor: Indulge in our rich and cheesy lasagna, a comforting Italian delight.",
         food_category: "Italian Cuisine"
-    }, {
+    },
+    {
         food_id: 15,
-        food_name: "Grilled Sandwich",
+        food_name: "Pizza",
         food_image: food_15,
         food_price: 16,
-        food_desc: "Food provides essential nutrients for overall health and well-being",
+        food_desc: "Slice of Heaven: Enjoy our mouthwatering pizza with your favorite toppings, straight from the oven.",
         food_category: "Italian Cuisine"
-    }, {
+    },
+    {
         food_id: 16,
-        food_name: "Bread Sandwich",
+        food_name: "Risotto",
         food_image: food_16,
         food_price: 24,
-        food_desc: "Food provides essential nutrients for overall health and well-being",
+        food_desc: "Creamy Elegance: Delight in our exquisite risotto, perfectly cooked and full of flavor.",
         food_category: "Italian Cuisine"
-    }, {
+    },
+    {
         food_id: 17,
-        food_name: "Cup Cake",
+        food_name: "Malatang",
         food_image: food_17,
         food_price: 14,
-        food_desc: "Food provides essential nutrients for overall health and well-being",
+        food_desc: "Spicy Sensation: Warm up with our flavorful malatang, a spicy Chinese hot pot.",
         food_category: "Chinese cuisine"
-    }, {
+    },
+    {
         food_id: 18,
-        food_name: "Vegan Cake",
+        food_name: "General Chicken",
         food_image: food_18,
         food_price: 12,
-        food_desc: "Food provides essential nutrients for overall health and well-being",
+        food_desc: "Satisfyingly Crispy: Crave-worthy general chicken with a crispy coating and savory sauce.",
         food_category: "Chinese cuisine"
-    }, {
+    },
+    {
         food_id: 19,
-        food_name: "Butterscotch Cake",
+        food_name: "Hot Pot",
         food_image: food_19,
         food_price: 20,
-        food_desc: "Food provides essential nutrients for overall health and well-being",
+        food_desc: "Gather Around: Dive into our hot pot, a communal feast of simmering broth and fresh ingredients.",
         food_category: "Chinese cuisine"
-    }, {
+    },
+    {
         food_id: 20,
-        food_name: "Sliced Cake",
+        food_name: "Dumpling",
         food_image: food_20,
         food_price: 15,
-        food_desc: "Food provides essential nutrients for overall health and well-being",
+        food_desc: "Bite-sized Delight: Enjoy our delicious dumplings, bursting with savory fillings.",
         food_category: "Chinese cuisine"
-    }, {
+    },
+    {
         food_id: 21,
-        food_name: "Garlic Mushroom ",
+        food_name: "Vegan Burger",
         food_image: food_21,
         food_price: 14,
-        food_desc: "Food provides essential nutrients for overall health and well-being",
+        food_desc: "Plant-based Perfection: Sink your teeth into our flavorful vegan burger, guilt-free and delicious.",
         food_category: "Vegan"
-    }, {
+    },
+    {
         food_id: 22,
-        food_name: "Fried Cauliflower",
+        food_name: "Vegan Poke Salad",
         food_image: food_22,
         food_price: 22,
-        food_desc: "Food provides essential nutrients for overall health and well-being",
+        food_desc: "Fresh Fusion: Experience the vibrant flavors of our vegan poke salad, a healthy and satisfying choice.",
         food_category: "Vegan"
-    }, {
+    },
+    {
         food_id: 23,
-        food_name: "Mix Veg Pulao",
+        food_name: "Vegan Falafel",
         food_image: food_23,
         food_price: 10,
-        food_desc: "Food provides essential nutrients for overall health and well-being",
+        food_desc: "Mediterranean Delight: Enjoy our crispy vegan falafel, packed with Middle Eastern spices.",
         food_category: "Vegan"
-    }, {
+    },
+    {
         food_id: 24,
-        food_name: "Rice Zucchini",
+        food_name: "Vegan Sandwich",
         food_image: food_24,
         food_price: 12,
-        food_desc: "Food provides essential nutrients for overall health and well-being",
+        food_desc: "Savor the Goodness: Taste our wholesome vegan sandwich, filled with fresh ingredients and flavor.",
         food_category: "Vegan"
     },
     {
         food_id: 25,
-        food_name: "Cheese Pasta",
+        food_name: "Chocolate Cake",
         food_image: food_25,
         food_price: 12,
-        food_desc: "Food provides essential nutrients for overall health and well-being",
+        food_desc: "Decadent Treat: Indulge in our rich and moist chocolate cake, a delightful dessert for any occasion.",
         food_category: "Dessert"
     },
     {
         food_id: 26,
-        food_name: "Tomato Pasta",
+        food_name: "Macarons",
         food_image: food_26,
         food_price: 18,
-        food_desc: "Food provides essential nutrients for overall health and well-being",
+        food_desc: "Sweet Delights: Enjoy our delicate and colorful macarons, perfect for a sweet moment.",
         food_category: "Dessert"
-    }, {
+    },
+    {
         food_id: 27,
-        food_name: "Creamy Pasta",
+        food_name: "Cheesecake",
         food_image: food_27,
         food_price: 16,
-        food_desc: "Food provides essential nutrients for overall health and well-being",
+        food_desc: "Creamy Bliss: Dive into our velvety cheesecake, a classic dessert that's simply irresistible.",
         food_category: "Dessert"
-    }, {
+    },
+    {
         food_id: 28,
-        food_name: "Chicken Pasta",
+        food_name: "Tiramisu",
         food_image: food_28,
         food_price: 24,
-        food_desc: "Food provides essential nutrients for overall health and well-being",
+        food_desc: "Italian Indulgence: Treat yourself to our authentic tiramisu, a heavenly dessert with layers of flavor.",
         food_category: "Dessert"
-    }, {
+    },
+    {
         food_id: 29,
-        food_name: "Buttter Noodles",
+        food_name: "Chicken Souvlaki",
         food_image: food_29,
         food_price: 14,
-        food_desc: "Food provides essential nutrients for overall health and well-being",
+        food_desc: "Mediterranean Feast: Savor our juicy chicken souvlaki, seasoned to perfection.",
         food_category: "Greek cuisine"
-    }, {
+    },
+    {
         food_id: 30,
-        food_name: "Veg Noodles",
+        food_name: "Chicken Souvlaki Wrap",
         food_image: food_30,
         food_price: 12,
-        food_desc: "Food provides essential nutrients for overall health and well-being",
+        food_desc: "On-the-Go Delight: Enjoy our flavorful chicken souvlaki wrap, a satisfying meal for any time of day.",
         food_category: "Greek cuisine"
-    }, {
+    },
+    {
         food_id: 31,
-        food_name: "Somen Noodles",
+        food_name: "Greek Salad",
         food_image: food_31,
         food_price: 20,
-        food_desc: "Food provides essential nutrients for overall health and well-being",
+        food_desc: "Fresh and Crisp: Taste our refreshing Greek salad, bursting with Mediterranean flavors.",
         food_category: "Greek cuisine"
-    }, {
+    },
+    {
         food_id: 32,
-        food_name: "Cooked Noodles",
+        food_name: "Greek Risotto",
         food_image: food_32,
         food_price: 15,
-        food_desc: "Food provides essential nutrients for overall health and well-being",
+        food_desc: "Greek Twist: Experience our unique Greek risotto, a fusion of Mediterranean and Italian influences.",
         food_category: "Greek cuisine"
     }
-]
+];
