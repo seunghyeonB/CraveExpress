@@ -55,7 +55,7 @@ import twitter_icon from './twitter_icon.png'
 import cross_icon from './cross_icon.png'
 import selector_icon from './selector_icon.png'
 
-export const menu_lists = {
+export const assets = {
     logo,
     basket_icon,
     header_img,
@@ -72,9 +72,43 @@ export const menu_lists = {
     cross_icon,
     selector_icon
 }
+export const menu_list = [
+    {
+        menu_name: "Japanese cuisine",
+        menu_image: menu_1
+    },
+    {
+        menu_name: "Indian cuisine",
+        menu_image: menu_2
+    },
+    {
+        menu_name: "Korean cuisine",
+        menu_image: menu_3
+    },
+    {
+        menu_name: "Italian Cuisine",
+        menu_image: menu_4
+    },
+    {
+        menu_name: "Chinese cuisine",
+        menu_image: menu_5
+    },
+    {
+        menu_name: "Vegan",
+        menu_image: menu_6
+    },
+    {
+        menu_name: "Dessert",
+        menu_image: menu_7
+    },
+    {
+        menu_name: "Greek cuisine",
+        menu_image: menu_8
+    }]
+
+    
 
 export const food_list = [
-
     {
         food_id: 1,
         food_name: "Sushi",
@@ -321,4 +355,4 @@ export const food_list = [
         food_desc: "Greek Twist: Experience our unique Greek risotto, a fusion of Mediterranean and Italian influences.",
         food_category: "Greek cuisine"
     }
-];
+]; 
